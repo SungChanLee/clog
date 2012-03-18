@@ -20,6 +20,7 @@ clog.configure({
 clog('server', 'start listening on port 3000');  // custom head
 
 clog.log('hello', 'world');                      // console.log
+clog.log('hello1', 'world2');                      // console.log
 clog.info(['foo', 'bar']);                       // console.info
 clog.warn('baz is deprecated.');                 // console.warn
 clog.error('HTTP/1.1 400 Bad Request');          // console.error
