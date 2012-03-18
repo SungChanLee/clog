@@ -1,7 +1,7 @@
 var clog = require('./lib/clog');
 
 // display level configration:
-clog.configure({'log level': 2});
+clog.configure({'log level': 3});
 //=> {'log': true, 'info': true, 'warn': false, 'error': false, 'debug': false}
 
 // custom display configration:
